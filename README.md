@@ -15,15 +15,13 @@
   pip install -r requirements.txt
   ```
   
-* Download the pix2pix dataset (Map2Sat).
-(2194 images scraped from Google Maps)
+* Download the pix2pix dataset. (Map2Sat, 2194 images scraped from Google Maps)
 
   ```shell
   bash datasets/download_pix2pix_dataset.sh maps
   ```
 
-* Download the original model of map2sat dataset.
-(A conditional-GAN based paired image-to-image translation model)
+* Download the original model of map2sat dataset. (A conditional-GAN based paired image-to-image translation model)
 
   ```shell
   python scripts/download_model.py --model pix2pix --task map2sat --stage full
