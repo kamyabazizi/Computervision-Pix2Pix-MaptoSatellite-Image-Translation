@@ -43,6 +43,6 @@
 
 * Get visual results of the model.
 
-```shell
-python main.py
-```
+  ```shell
+  python main.py
+  ```
