@@ -2,7 +2,7 @@
 
 The computer vision course project for a map to an Aerial image translation
 
-Clone this repo:
+* Clone this repo:
 
   ```shell
   git clone https://github.com/kamyabazizi/Computervision-Pix2Pix-MaptoSatellite-Image-Translation.git
