@@ -39,3 +39,10 @@
     --need_profile --num_test 200
   ```
   
+# Results
+
+* Get visual results of the model.
+
+```shell
+python main.py
+```
