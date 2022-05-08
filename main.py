@@ -25,7 +25,7 @@ model_full.setup(opt, verbose=False)
 
 transform_list = [transforms.ToTensor(), transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))]
 transform = transforms.Compose(transform_list)
-print('             Input                        Original                        Ground-truth')
+
 A_dir = 'imgs/maps/A'
 B_dir = 'imgs/maps/B'
 
@@ -42,11 +42,3 @@ for file in files:
     output_full = model_full.netG(input).cpu()
     B_full = tensor2im(output_full)
     save_image(B_full, 'output/full/%s.png' % base, create_dir=True)
-    p1 = Image.open(A_path)
-    p2 = Image.open('output/full/%s.png' % base)
-    p3 = Image.open(os.path.join(B_path))
-    all = Image.new('RGB', (256*3, 256))
-    all.paste(p1, (0, 0))
-    all.paste(p2, (256, 0))
-    all.paste(p3, (256*2, 0))
-    display(all)
