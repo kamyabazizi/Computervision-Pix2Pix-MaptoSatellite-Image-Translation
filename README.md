@@ -1,4 +1,4 @@
-# Computervision-Pix2Pix-MaptoSatellite-Image-Translation
+# Computervision-Pix2Pix-Map2Satellite-Image-Translation
 
 **The computer vision course project for a map to an Aerial image translation**
 
