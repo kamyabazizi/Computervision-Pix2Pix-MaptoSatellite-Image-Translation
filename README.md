@@ -47,3 +47,8 @@
   python main.py
   python visual.py
   ```
+  
+  
+ <p align="center">
+  <img src="resultsmap2sat.jpg" width=600>
+ </p>
